@@ -1,0 +1,57 @@
+.testi {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testi__intro{
+    color: white;
+    line-height: 28px;
+    text-align: center;
+}
+.testi__content {
+    line-height: 28px;
+    text-align: center;
+}
+
+.testi__header {
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testi-list {
+    display: block;
+   
+    margin: 100px auto 0;
+}
+
+.testi-list__item {
+    /* float: left; */
+    /* width: 30%; */
+    padding: 30px 20px;
+    
+    /* margin-left: 2.5%; */
+    padding-right: 3%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 3%;
+   
+}
+h1 {
+    text-align: center;
+}
+@media (min-width: 992px) { 
+    .testi-list__item {
+        flex: 0 0 30.333333%;
+    }
+    .testi-list {
+        width: 1170px;
+     }
+     .testi__header {
+        width: 670px;
+     }
+
+}

@@ -1,0 +1,14 @@
+
+.appbar__profile__content {
+    padding: 40px 20px 0 40px;
+    color: #777777;
+}
+
+.appbar__profile__avatar {
+    height: 100%;
+    overflow: hidden;
+}
+
+.appbar__profile__avatar img {
+    width: 100%;
+}
